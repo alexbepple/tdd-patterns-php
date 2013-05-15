@@ -1,5 +1,5 @@
 <?php
-class TextMungerForObivousImplementationTest extends PHPUnit_Framework_TestCase {
+class TextMungerForObviousImplementationTest extends PHPUnit_Framework_TestCase {
 
     public function testLeavesWordsUpTo3CharsUnchanged() {
         $this->assertThat($this->munge('abc'), $this->equalTo('abc'));
